@@ -1644,6 +1644,9 @@ input:-webkit-autofill:active {
           .portfolio-list.grid .portfolio-item .content:hover, .portfolio-list.grid .portfolio-item .contentfocus {
             transform: none; } }
 
+.cool-feature{
+  font-weight:600;
+}
 .masonry-wrapper {
   overflow: hidden;
   margin: 0 -15px;
