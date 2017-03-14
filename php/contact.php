@@ -1,9 +1,9 @@
 <?php
 
-$title = 'Supersonic contact';
-$to = 'info.scientecraft@gmail.com';
-$subject = 'Supersonic contact form';
-$headers = 'From: (Supersonic contact form)' . "\r\n" . 'Content-type: text/html; charset=utf-8';
+$title = 'Message from Portfolio';
+$to = 'sophialiu.dev@gmail.com';
+$subject = 'Portfolio contact form';
+$headers = 'From: (Portfolio contact form)' . "\r\n" . 'Content-type: text/html; charset=utf-8';
 
 $message = '
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
