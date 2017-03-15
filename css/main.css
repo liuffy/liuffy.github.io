@@ -1886,6 +1886,17 @@ input:-webkit-autofill:active {
       .project-info p .info {
         width: 28%; } }
 
+.back{
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-size: 1.4rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-right:40px;
+    display: inline-block;
+white-space: nowrap;
+}
+
 .mfp-close, .mfp-image-holder .mfp-close {
   opacity: 1;
   width: 20px;
