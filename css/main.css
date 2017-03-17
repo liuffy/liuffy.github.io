@@ -351,6 +351,24 @@ input:-webkit-autofill:active {
   .custom-select.open .select-body {
     display: block; }
 
+
+.sticker{
+  color: #387f54 !important;
+  background:rgba(138, 201, 164,0.8) !important;
+  /*margin:0px !important;*/
+  padding:10px 2px !important;
+  width:100% !important;
+}
+
+.sticker-container{
+  width:250px !important;
+  height:auto !important;
+}
+
+.sticker:hover{
+  background: #a8b2c1 !important;
+}
+
 .checkbox {
   font-size: 12px !important;
   font-size: 1.2rem !important;
