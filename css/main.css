@@ -1349,6 +1349,7 @@ input:-webkit-autofill:active {
   .btn.btn-primary {
     outline: none !important;
     border: none;
+    z-index:3000;
     border-radius: 3px; }
   .btn.btn-default {
     font-size: 8px;
