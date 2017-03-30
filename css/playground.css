@@ -1,0 +1,101 @@
+.title{
+  text-shadow: rgba(0,0,0, 0.2) 0px 1px;
+}
+
+.playground-object{
+  padding:30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  float:left;
+}
+
+input{
+  width:180px;
+  outline:none;
+  font-size:10px;
+  margin-left:10px;
+}
+
+.playtoy-icon{
+  width:80px;
+  height:auto;
+  display:block;
+  cursor:pointer;
+}
+
+/* Lights off */
+.body-dark{
+  -webkit-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+  background:black !important;
+  color:white !important;
+}
+
+.body-light{
+  -webkit-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+  background:white !important;
+  color: gray !important;
+}
+
+
+.lightbulb:hover{
+  transform: scale(1.2);
+}
+
+/* Wiggle */
+
+.pengu:hover{
+ -webkit-animation-name: wiggle;
+  -ms-animation-name: wiggle;
+  -ms-animation-duration: 1500ms;
+  -webkit-animation-duration: 1500ms;
+}
+  @-webkit-keyframes wiggle {
+  0% {-webkit-transform: rotate(10deg);}
+  25% {-webkit-transform: rotate(-10deg);}
+  50% {-webkit-transform: rotate(20deg);}
+  75% {-webkit-transform: rotate(-5deg);}
+  100% {-webkit-transform: rotate(0deg);}
+}
+
+@-ms-keyframes wiggle {
+  0% {-ms-transform: rotate(1deg);}
+  25% {-ms-transform: rotate(-1deg);}
+  50% {-ms-transform: rotate(1.5deg);}
+  75% {-ms-transform: rotate(-5deg);}
+  100% {-ms-transform: rotate(0deg);}
+}
+
+@keyframes wiggle {
+  0% {transform: rotate(10deg);}
+  25% {transform: rotate(-10deg);}
+  50% {transform: rotate(20deg);}
+  75% {transform: rotate(-5deg);}
+  100% {transform: rotate(0deg);}
+}
+
+/*Hover*/
+
+
+.dragonite:hover{
+  animation: hover 1.5s infinite;
+}
+
+ @keyframes hover {
+  0%, 100% {
+    transform: translateY(-15px);
+    animation-timing-function: ease-out;
+  }
+  50% {
+    transform: translateY(-25px);
+    animation-timing-function: ease-in;
+  }
+}  
+

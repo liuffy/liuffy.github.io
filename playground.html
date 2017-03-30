@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="img/favicon/manifest.json">
     <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg">
-    <link rel="shortcut icon" href="img/favicon/favicon2.ico">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico">
     <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     <meta charset="utf-8">
@@ -20,10 +20,12 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/graph.css">
     <link rel="stylesheet" href="css/main.css">
-    <title> - sophia liu</title>
+    <link rel="stylesheet" href="css/playground.css">
+
+    <title> - CSS3 playground </title>
     <link rel="stylesheet" href="css/light.css">
   </head>
-  <body class="animsition home-page">
+  <body class="animsition">
     <div class="showbox">
       <div class="loader">
         <svg viewBox="25 25 50 50" class="circular">
@@ -31,80 +33,64 @@
         </svg>
       </div>
     </div>
-    <div class="background background-light"></div>
+    <div class="background"></div>
     <div class="flex-wrapper">
       <div class="main-content align-center">
         <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-10 home-headings-container">
-              <div class="title-box">
-                <div data-background="img/main_bg_light/text_bg_1.png" class="text_bg_1 fullscreen_bg"></div>
-                <div data-background="img/main_bg_light/text_bg_2.png" class="text_bg_2 fullscreen_bg"></div>
-                <div data-background="img/main_bg_light/text_bg_3.png" class="text_bg_3 fullscreen_bg"></div>
-                <div data-background="img/main_bg_light/text_bg_4.png" class="text_bg_4 fullscreen_bg"></div>
-                <h1 class="home-heading text-1-opacity">Hi, I'm</h1>
-                <!-- <h4 class="home-subheading">UI Designer, Web Developer</h4> -->
-                <h1 data-bg="#ffffff" data-text-mobile="s.liu" data-text-desktop="s.liu," class="title">sliu</h1>
-                                <h1 class="home-subheading">web developer</h1>
+          <div class="row overflow-visible">
+            <div class="col-sm-12">
+           
+
+              <div class="portfolio-list grid list-unstyled">
+                <div class="grid-sizer"></div>
+                <div class="gutter-sizer"></div>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
 
 
-
-              </div>
-            <div class="col-sm-12 text-center"><a href="portfolio.html" class="just-this btn btn-primary text-uppercase">Portfolio</a>
-
-            </div>
-
-            </div>
-                 <div class="col-wraper">
-
-             <br/>
-            </div>
-            </div>
-<div class="col-md-6">
-                <h1 class="about-header text-1-opacity skills">about</h1>
-                  <p>I create imaginatively and obsessively, and love to combine modern and older aesthetic influences. My background in education provides me with insight about how to build intuitive interfaces that speak to the needs of all users.</p>
-                  <p class="download-resume"><a href="http://res.cloudinary.com/liuffy/image/upload/v1490765809/Sophia_Liu_Resume.pdf" target="_blank">VIEW resume</a> &emsp;
-                  <a href="http://res.cloudinary.com/liuffy/image/upload/v1490765809/Sophia_Liu_Resume.pdf" target="_blank" download>DOWNLOAD resume</a>
-
-                  </p>
+  <script>
 
 
-                           <p><span class="info text-uppercase">e-mail:</span><span class="info-description"> sophialiu.dev@gmail.com </span></p>
-                  <p><span class="info text-uppercase">cell:</span><span class="info-description"> + 1 617 913 2335 </span></p>
-                </div>
-
-                    <div class="skills-container col-md-5">
-              <h1 class="about-header text-1-opacity skills">skills</h1>
-                <img class="lang-icon" src="img/javascript.png"/>
-                <img class="lang-icon" src="img/reactjs.svg"/>
-                <img class="lang-icon" src="img/ruby.png"/>
-                <img class="lang-icon" src="img/rails.png"/>
-                <img class="lang-icon" src="img/css3.png"/>
-                <img class="lang-icon" src="img/sass.png"/>
-                <img class="lang-icon" src="img/html5.png"/>
-                <img class="lang-icon" src="img/redux.png"/>
-                <img class="lang-icon" src="img/firebase.png"/>
-                <img class="lang-icon" src="img/git.png"/>
-                <img class="lang-icon" src="img/sql.png"/>
-                <img class="lang-icon" src="img/photoshop.png"/>
-                </div>
-              </div>
-          </div>
-
+  $(document).ready(function() {
+    $('.lightbulb').click(function(){
+      $('body').hasClass('body-dark') ? $('body').removeClass('body-dark').addClass('body-light') : $('body').removeClass('body-light').addClass('body-dark')
+    })
+    $('.lightbulb').hover(function(){
+     $('.text-blurb').hasClass('visible') ? $('.text-blurb').removeClass('visible') : $('.text-blurb').addClass('visible')
+    })
+  })
+ </script>
+ <p class="title">Fun things I've made with CSS3 and jQuery.</p>
+        <div class="playground-object">
+            <img class="lightbulb playtoy-icon" src= "./img/lightbulb.png" />
+            <p class="title">Hit the lights</p>
+            <p><b>Code pen:</b><input onClick="this.select();" type="text" value="http://codepen.io/sophialiu-dev/pen/vxvOPo"/></p>
         </div>
 
+          <div class="playground-object">
+            <img class="playtoy-icon pengu" src= "./img/pengu.png" />
+            <p class="title">Wiggle wiggle</p>
+            <p><b>Code pen:</b><input onClick="this.select();" type="text" value="https://codepen.io/sophialiu-dev/pen/ryoOrR"/></p>
+        </div>
+
+          <div class="playground-object">
+            <img class="playtoy-icon dragonite" src= "./img/dragonite.png" />
+            <p class="title">Hover</p>
+            <p><b>Code pen:</b><input onClick="this.select();" type="text" value="http://codepen.io/sophialiu-dev/pen/XMomwL"/></p>
+        </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
     </div>
-
-
-
     <div class="container navigation hidden-xs">
       <nav>
         <ul class="menu text-uppercase animsition">
-          <li><a href="index.html" class="active animsition-link">home</a></li>
+          <li><a href="index.html" class="animsition-link">home</a></li>
           <li><a href="portfolio.html" class="animsition-link"> portfolio</a></li>
-          <li><a href="playground.html" class="animsition-link"> playground</a></li>
+          <li><a href="playground.html" class="active animsition-link"> playground</a></li>
           <!-- <li><a href="contact_me.html" class="animsition-link">contact</a></li> -->
           <li><a href="stickers.html" class="animsition-link"> what's on my laptop</a></li>
 
@@ -113,7 +99,7 @@
           <li><a href="https://github.com/liuffy" target="_blank" class="fa fa-github-alt"></a></li>
           <li><a href="https://www.linkedin.com/in/sophia-liu-a9660229"  target="_blank" class="fa fa-linkedin"></a></li>
           <li><a href="http://recursively-dreaming.tumblr.com/"  target="_blank" class="fa fa-tumblr"></a></li>
-         <li><a href="http://res.cloudinary.com/liuffy/image/upload/v1490765809/Sophia_Liu_Resume.pdf" 
+         <li><a href="http://res.cloudinary.com/liuffy/image/upload/v1490396820/Sophia_Liu_Resume2017.pdf" 
           title="Resume" target="_blank" class="fa fa-file-text"></a></li>
           <li><a href="mailto:sophialiu.dev@gmail.com"  target="_blank" class="fa fa-envelope-o"></a></li>
         </ul>
@@ -130,18 +116,16 @@
               <ul class="menu">
                 <li><a href="index.html" class="animsition-link">home</a></li>
                       <li><a href="portfolio.html" class="animsition-link"> portfolio</a></li>
-                                <li><a href="playground.html" class="animsition-link"> playground</a></li>
-
+                      <li><a href="playground.html" class="animsition-link"> playground</a></li>
                 <!-- <li><a href="contact_me.html" class="animsition-link">contact</a></li> -->
-                          <li><a href="stickers.html" class="animsition-link"> what's on my laptop</a></li>
-
+                <li><a href="stickers.html" class="animsition-link"> what's on my laptop</a></li>
               </ul>
               <div class="line"></div>
               <ul class="social-links">
-    <li><a href="https://github.com/liuffy" target="_blank" class="fa fa-github-alt"></a></li>
+     <li><a href="https://github.com/liuffy" target="_blank" class="fa fa-github-alt"></a></li>
           <li><a href="https://www.linkedin.com/in/sophia-liu-a9660229"  target="_blank" class="fa fa-linkedin"></a></li>
           <li><a href="http://recursively-dreaming.tumblr.com/"  target="_blank" class="fa fa-tumblr"></a></li>
-             <li><a href="http://res.cloudinary.com/liuffy/image/upload/v1490765809/Sophia_Liu_Resume.pdf" 
+            <li><a href="http://res.cloudinary.com/liuffy/image/upload/v1490396820/Sophia_Liu_Resume2017.pdf" 
           title="Resume" target="_blank" class="fa fa-file-text"></a></li>
           <li><a href="mailto:sophialiu.dev@gmail.com"  target="_blank" class="fa fa-envelope-o"></a></li>
               </ul>
@@ -150,8 +134,6 @@
         </div>
       </div>
     </div>
-
-
     <script>
       if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
           document.write('<script src="js/browser-polyfill.min.js"><\/script>');
