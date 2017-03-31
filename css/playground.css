@@ -90,12 +90,58 @@ input{
 
  @keyframes hover {
   0%, 100% {
-    transform: translateY(-15px);
+    transform: translateY(-5px);
     animation-timing-function: ease-out;
   }
   50% {
-    transform: translateY(-25px);
+    transform: translateY(-15px);
     animation-timing-function: ease-in;
   }
 }  
 
+/*Underline*/
+
+.underline{
+  color: #8ca5cd !important;
+  font-size:24px;
+  font-weight:600;
+   display:block;
+  cursor:pointer;
+
+}
+
+.underline::after{
+  content: "";
+  width: 0;
+  margin-top:5px;
+  height: 3px;
+  background: #8ca5cd;
+  display: block;
+  left: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.underline:hover::after {
+  -webkit-animation: bar 0.5s linear;
+  animation: bar 0.5s linear;
+  width:100%;
+  }
+
+
+  @-webkit-keyframes bar {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes bar {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
