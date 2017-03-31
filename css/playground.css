@@ -2,6 +2,11 @@
   font-weight:500;
 }
 
+.playground-title{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
 .playground-object{
   padding:30px;
   display: flex;
@@ -178,7 +183,7 @@ input{
   -moz-transition: all 1s ease-in;
   transition: all 1s ease-in;
   margin-top:20px;
-  z-index:200;
+  z-index:0;
 }
 
 .box:hover{
