@@ -1,31 +1,4 @@
-/*------------------------------------------------------------------
-[Master Stylesheet]
 
-Project:	Lucid
-Version:	1.0.0
-Author: Scientecraft
-AuthorURL: https://themeforest.net/user/scientecraft/portfolio
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[Table of contents]
-
-1. Body
-2. Navigation / .navigation
-3. Content / .main-content
-4. Home / .title-box
-5. About / .about-page
-6. Portfolio grid / .portfolio-list
-7. Portfolio masonry/ .portfolio-list-masonry
-8. Portfolio slider / .portfolio-carousel
-9. Portfolio open project/ .open-project-lightbox
-10. reviews carousel / .carousel
-11. prices / price-style-1
-12. prices table / .prices-table
-13. contact form / #contact-form
-14 sidebar / .sidebar
-15 blog previews / preview-wrapper
-15 blog post / .post
--------------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600|Raleway:300,400,500,700|Shrikhand");
 html {
   font-size: 62.5%;
