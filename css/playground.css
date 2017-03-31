@@ -173,19 +173,34 @@ input{
 
 .kitteh{
   margin-top:-20px;
-  height:40px;
-  width:auto;
+  height:30%;
+  width:30%;
   position:absolute;
   z-index:-2;
+  /*bottom:0;*/
+}
+
+.alive{
+    background-image: url('../img/kitteh.gif');
+    background-size: auto 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dead{
+  background-image: url('../img/dead-kitteh.png');
+  background-size: auto 50px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .box{
-  -webkit-transition: all 1s ease-in;
-  -moz-transition: all 1s ease-in;
-  transition: all 1s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
   margin-top:20px;
   z-index:0;
 }
 
 .box:hover{
- opacity:0.4;
+ opacity:0.2;
 }
