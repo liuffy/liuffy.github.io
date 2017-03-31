@@ -14,6 +14,7 @@
 }
 
 input{
+  padding:2px 6px;
   width:180px;
   outline:none;
   font-size:10px;
@@ -160,4 +161,26 @@ input{
   -webkit-transition: all 200ms ease-in;
   -moz-transition: all 200ms ease-in;
   transition: all 200ms ease-in;
+}
+
+
+/* Shroedinger*/
+
+.kitteh{
+  margin-top:-20px;
+  height:40px;
+  width:auto;
+  position:absolute;
+  z-index:-2;
+}
+.box{
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+  margin-top:20px;
+  z-index:200;
+}
+
+.box:hover{
+ opacity:0.4;
 }
