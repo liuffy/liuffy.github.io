@@ -219,13 +219,13 @@ body {
   position:absolute;
   display: block;
   left: 0;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .navigation nav .menu > li a:hover::after {
-  -webkit-animation: bar 0.5s linear;
-  animation: bar 0.5s linear;
+  -webkit-animation: bar 0.2s linear;
+  animation: bar 0.2s linear;
   width:100%;
   }
 
