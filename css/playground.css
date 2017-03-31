@@ -19,11 +19,22 @@
 }
 
 input{
-  padding:2px 6px;
   width:180px;
   outline:none;
   font-size:10px;
   margin-left:10px;
+  -webkit-transition: all 100ms ease-in;
+  -moz-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+  border: 0;
+  outline: 0;
+  color: inherit;
+  border: 1px solid gray;
+  padding:2px 6px;
+}
+
+.input-dark{
+  background:#626665;
 }
 
 .playtoy-icon{

@@ -53,6 +53,8 @@
   $(document).ready(function() {
     $('.lightbulb').click(function(){
       $('body').hasClass('body-dark') ? $('body').removeClass('body-dark').addClass('body-light') : $('body').removeClass('body-light').addClass('body-dark')
+
+            $('body').hasClass('body-dark') ? $('input').addClass('input-dark') : $('input').removeClass('input-dark')
     })
     $('.lightbulb').hover(function(){
      $('.text-blurb').hasClass('visible') ? $('.text-blurb').removeClass('visible') : $('.text-blurb').addClass('visible')
