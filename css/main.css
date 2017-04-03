@@ -1393,7 +1393,7 @@ input:-webkit-autofill:active {
       top: 34%; }
 
 .title-box {
-  margin-bottom: 55px;
+  margin-bottom: 15px;
   position: relative;
   overflow: hidden;
   font-family: "Poppins" !important; }

@@ -61,13 +61,14 @@ input{
   color: gray !important;
 }
 
-.lightbulb{
+.star, .lightbulb{
   transition: all 0.2s ease-in;
 }
 
-.lightbulb:hover{
+.star:hover, .lightbulb:hover{
   transform: scale(1.2);
 }
+
 
 /* Wiggle */
 
@@ -224,8 +225,8 @@ input{
 .body-auroura{
   color:white;
   background-position: 0px 0px;
- background: linear-gradient(243deg, #3ffd5f, #160f1f, #3f1d8b);
-background-size: 200% 200%;
+   background: linear-gradient(243deg, #3ffd5f, #160f1f, #3f1d8b);
+  background-size: 200% 200%;
 
 -webkit-animation: Auroura 5s ease infinite;
 -moz-animation: Auroura 5s ease infinite;
@@ -249,21 +250,72 @@ animation: Auroura 5s ease infinite;
 }
 
 
-@keyframes shadows-cells {
-  25% {
-    box-shadow: shadow-matrix($colors-in-step*2);
-  }
-  45% {
-    box-shadow: shadow-matrix($colors-in-step);
-  }
-  75% {
-    box-shadow: shadow-matrix($colors-in-step*3);
-  }
-}
-
 .polar-bear{
   transition: all 0.2s ease-in;
 }
 .polar-bear:hover{
     transform: scale(1.2);
 }
+
+/*Twinkle */
+.stars, .twinkling {
+   -webkit-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+}
+
+.stars p, .stars h1 {
+  color:white;
+}
+
+.stars {
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:-3;
+}
+
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:-2;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+
+
