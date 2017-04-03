@@ -54,6 +54,9 @@ input{
   color:white !important;
 }
 
+.body-dark p {
+  text-shadow: 0px 0px 10px #fff !important;
+}
 .body-light{
   -webkit-transition: all 500ms ease-in;
   -moz-transition: all 500ms ease-in;
@@ -66,10 +69,21 @@ input{
   transition: all 0.2s ease-in;
 }
 
-.star:hover, .lightbulb:hover{
+.lightbulb:hover{
   transform: scale(1.2);
 }
 
+.star{
+  opacity:0.4;
+}
+
+.star:hover{
+  opacity:1;
+}
+
+.star-shine{
+  opacity:1;
+}
 
 /* Wiggle */
 

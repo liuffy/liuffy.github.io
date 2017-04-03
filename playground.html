@@ -54,6 +54,7 @@
   $(document).ready(function() {
     $('.star').click(function(){
       $('body').hasClass('stars') ? $('body').removeClass('stars') : $('body').addClass('stars')
+      $('body').hasClass('stars') ? $('.star').addClass('star-shine') : $('.star').removeClass('star-shine')
       $('.div2').hasClass('twinkling') ? $('.div2').removeClass('twinkling') : $('.div2').addClass('twinkling')
         $('body').hasClass('stars') ? $('input').addClass('input-dark') : $('input').removeClass('input-dark')
 
