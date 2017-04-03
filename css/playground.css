@@ -227,22 +227,22 @@ input{
  background: linear-gradient(243deg, #3ffd5f, #160f1f, #3f1d8b);
 background-size: 200% 200%;
 
--webkit-animation: AnimationName 5s ease infinite;
--moz-animation: AnimationName 5s ease infinite;
-animation: AnimationName 5s ease infinite;
+-webkit-animation: Auroura 5s ease infinite;
+-moz-animation: Auroura 5s ease infinite;
+animation: Auroura 5s ease infinite;
 }
 
-@-webkit-keyframes AnimationName {
+@-webkit-keyframes Auroura {
     0%{background-position:0% 72%}
     50%{background-position:80% 29%}
     100%{background-position:0% 72%}
 }
-@-moz-keyframes AnimationName {
+@-moz-keyframes Auroura {
     0%{background-position:0% 72%}
     50%{background-position:80% 29%}
     100%{background-position:0% 72%}
 }
-@keyframes AnimationName { 
+@keyframes Auroura { 
     0%{background-position:0% 72%}
     50%{background-position:80% 29%}
     100%{background-position:0% 72%}
