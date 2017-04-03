@@ -258,11 +258,7 @@ animation: Auroura 5s ease infinite;
 }
 
 /*Twinkle */
-.stars, .twinkling {
-   -webkit-transition: all 500ms ease-in;
-  -moz-transition: all 500ms ease-in;
-  transition: all 500ms ease-in;
-}
+
 
 .stars p, .stars h1 {
   color:white;
@@ -270,18 +266,17 @@ animation: Auroura 5s ease infinite;
 
 .stars {
   background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
-  z-index:-3;
 }
 
 .twinkling{
   background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
-  z-index:-2;
+  z-index:-1;
 
-  -moz-animation:move-twink-back 200s linear infinite;
-  -ms-animation:move-twink-back 200s linear infinite;
-  -o-animation:move-twink-back 200s linear infinite;
-  -webkit-animation:move-twink-back 200s linear infinite;
-  animation:move-twink-back 200s linear infinite;
+  -moz-animation:move-twink-back 500s linear infinite;
+  -ms-animation:move-twink-back 500s linear infinite;
+  -o-animation:move-twink-back 500s linear infinite;
+  -webkit-animation:move-twink-back 500s linear infinite;
+  animation:move-twink-back 500s linear infinite;
 }
 
 @keyframes move-twink-back {

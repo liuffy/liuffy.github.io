@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="css/light.css">
   </head>
   <body class="animsition">
+  <div class="div2"/>
     <div class="showbox">
       <div class="loader">
         <svg viewBox="25 25 50 50" class="circular">
@@ -51,8 +52,14 @@
 
 
   $(document).ready(function() {
+
+    $('.star').click(function(){
+      $('body').hasClass('stars') ? $('body').removeClass('stars') : $('body').addClass('stars')
+      $('.div2').hasClass('twinkling') ? $('.div2').removeClass('twinkling') : $('.div2').addClass('twinkling')
+    })
+
     $('.lightbulb').click(function(){
-      $('body').hasClass('body-dark') ? $('body').removeClass('body-dark').addClass('body-light') : $('body').removeClass('body-light').addClass('body-dark')
+      $('body').hasClass('body-dark') ? $('body').removeClass('body-dark') : $('body').addClass('body-dark')
 
             $('body').hasClass('body-dark') ? $('input').addClass('input-dark') : $('input').removeClass('input-dark')
     })
@@ -98,6 +105,11 @@
             <p><b>Code pen:</b><input onClick="this.select();" type="text" value="http://codepen.io/sophialiu-dev/pen/dvaByg"/></p>
         </div>
 
+      <div class="playground-object">
+            <img class="star playtoy-icon" src= "./img/star.png" />
+            <p class="title">Twinkle</p>
+            <p><b>Code pen:</b><input onClick="this.select();" type="text" value="http://codepen.io/sophialiu-dev/pen/dvaByg"/></p>
+        </div>
 
           <div class="playground-object">
             <img class="playtoy-icon pengu" src= "./img/pengu.png" />
