@@ -56,6 +56,8 @@
     $('.star').click(function(){
       $('body').hasClass('stars') ? $('body').removeClass('stars') : $('body').addClass('stars')
       $('.div2').hasClass('twinkling') ? $('.div2').removeClass('twinkling') : $('.div2').addClass('twinkling')
+        $('body').hasClass('stars') ? $('input').addClass('input-dark') : $('input').removeClass('input-dark')
+
     })
 
     $('.lightbulb').click(function(){
@@ -93,6 +95,13 @@
   })
  </script>
  <p class="title playground-title">Fun things I've made with CSS3 and jQuery.</p>
+
+       <div class="playground-object">
+            <img class="star playtoy-icon" src= "./img/star.png" />
+            <p class="title">Twinkle</p>
+            <p><b>Code pen:</b><input onClick="this.select();" type="text" value="http://codepen.io/sophialiu-dev/pen/dvaByg"/></p>
+        </div>
+        
         <div class="playground-object">
             <img class="lightbulb playtoy-icon" src= "./img/lightbulb.png" />
             <p class="title">Hit the lights (click)</p>
@@ -102,12 +111,6 @@
         <div class="playground-object">
             <img class="polar-bear playtoy-icon" src= "./img/polar_bear.png" />
             <p class="title">Auroura borealis</p>
-            <p><b>Code pen:</b><input onClick="this.select();" type="text" value="http://codepen.io/sophialiu-dev/pen/dvaByg"/></p>
-        </div>
-
-      <div class="playground-object">
-            <img class="star playtoy-icon" src= "./img/star.png" />
-            <p class="title">Twinkle</p>
             <p><b>Code pen:</b><input onClick="this.select();" type="text" value="http://codepen.io/sophialiu-dev/pen/dvaByg"/></p>
         </div>
 

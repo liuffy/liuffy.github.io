@@ -16,6 +16,7 @@
   align-items: center;
   align-content: stretch;
   float:left;
+  height:40%;
 }
 
 input{
@@ -272,11 +273,11 @@ animation: Auroura 5s ease infinite;
   background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
   z-index:-1;
 
-  -moz-animation:move-twink-back 500s linear infinite;
-  -ms-animation:move-twink-back 500s linear infinite;
-  -o-animation:move-twink-back 500s linear infinite;
-  -webkit-animation:move-twink-back 500s linear infinite;
-  animation:move-twink-back 500s linear infinite;
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
 }
 
 @keyframes move-twink-back {
@@ -295,22 +296,3 @@ animation: Auroura 5s ease infinite;
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
 }
-
-@keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-}
-@-webkit-keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-}
-@-moz-keyframes move-clouds-back {
-    from {background-position:0 0;}
-    to {background-position:10000px 0;}
-}
-@-ms-keyframes move-clouds-back {
-    from {background-position: 0;}
-    to {background-position:10000px 0;}
-}
-
-
