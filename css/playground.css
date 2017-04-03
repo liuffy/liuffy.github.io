@@ -310,3 +310,14 @@ animation: Auroura 5s ease infinite;
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
 }
+
+.menu-transparent{
+  opacity:0.4 !important;
+   -webkit-transition: all 300ms ease-in;
+  -moz-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+}
+
+.menu-transparent:hover{
+  opacity:1.0 !important;
+}
