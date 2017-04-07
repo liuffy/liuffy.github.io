@@ -321,3 +321,60 @@ animation: Auroura 5s ease infinite;
 .menu-transparent:hover{
   opacity:1.0 !important;
 }
+
+/* Boxed in */
+
+.boxed-in{
+  -webkit-transition: all 100ms ease-in;
+  -moz-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+  color: #5d62ea;
+  padding-bottom:0.2em;
+  cursor:pointer;
+  display: inline-block;
+  font-size: 1.5em;
+  padding:0em 0.2em;
+  margin-bottom:2.5em;
+  text-decoration: none;
+  position: relative;
+  font-family: 'Bungee', cursive;
+}
+
+.boxed-in:hover{
+  color: #5635ae;
+}
+
+.boxed-in:after,
+.boxed-in:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 2.5em;
+  margin-top:-12px;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+.boxed-in:before {
+  border-left: 3px solid #5635ae;
+  border-right: 3px solid #5635ae;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+}
+
+.boxed-in:after {
+  border-bottom: 3px solid #5635ae;
+  border-top: 3px solid #5635ae;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+.boxed-in:hover:after,
+.boxed-in:hover:before {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
