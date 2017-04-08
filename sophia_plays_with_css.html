@@ -62,6 +62,8 @@
 
     $('.lightbulb').click(function(){
       $('body, .menu').hasClass('body-dark') ? $('body, .menu').removeClass('body-dark') : $('body, .menu').addClass('body-dark')
+
+       $('.lightbulb').hasClass('lightbulb-flipped') ? $('.lightbulb').removeClass('lightbulb-flipped') : $('.lightbulb').addClass('lightbulb-flipped')
             $('body, .menu').hasClass('body-dark') ? $('input').addClass('input-dark') : $('input').removeClass('input-dark')
     })
     $('.lightbulb').hover(function(){
@@ -99,7 +101,7 @@
 
        <div class="playground-object">
             <img class="star playtoy-icon" src= "./img/star.svg"" />
-            <p class="title">Twinkle</p>
+            <p class="title">Twinkle (tap/click)</p>
             <p><b>Code pen:</b><input onClick="this.select();" type="text" value="http://codepen.io/sophialiu-dev/pen/aJMwJG"/></p>
         </div>
 
@@ -116,14 +118,14 @@
         </div>    
 
         <div class="playground-object">
-            <img class="lightbulb playtoy-icon" src= "./img/lightbulb.svg" />
-            <p class="title">Hit the lights (click)</p>
+            <img class="lightbulb playtoy-icon" src= "./img/switch.svg" />
+            <p class="title">Hit the lights (tap/click)</p>
             <p><b>Code pen:</b><input onClick="this.select();" type="text" value="http://codepen.io/sophialiu-dev/pen/vxvOPo"/></p>
         </div>        
 
         <div class="playground-object">
             <img class="polar-bear playtoy-icon" src= "./img/polar_bear.png" />
-            <p class="title">Auroura borealis (click)</p>
+            <p class="title">Auroura borealis (tap/click)</p>
             <p><b>Code pen:</b><input onClick="this.select();" type="text" value="http://codepen.io/sophialiu-dev/pen/dvaByg"/></p>
         </div>
         

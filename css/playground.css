@@ -65,13 +65,17 @@ input{
   color: gray !important;
 }
 
-.star, .lightbulb{
+.star{
   transition: all 0.2s ease-in;
 }
 
-.lightbulb:hover{
-  transform: scale(1.2);
+.lightbulb-flipped{
+        -moz-transform: scale(-1, -1);
+    -o-transform: scale(-1, -1);
+    -webkit-transform: scale(-1, -1);
+    transform: scale(-1, -1);
 }
+
 
 .star{
   margin-bottom:15px;
@@ -92,6 +96,10 @@ input{
 }
 
 /* Wiggle */
+
+.pengu{
+  margin-bottom:15px;
+}
 .pengu:hover{
  -webkit-animation-name: wiggle;
   -ms-animation-name: wiggle;
@@ -124,6 +132,9 @@ input{
 
 /*Hover*/
 
+.dragonite{
+  margin-bottom:15px;
+}
 
 .dragonite:hover{
   animation: hover 1.5s infinite;
@@ -143,22 +154,17 @@ input{
 /*Underline*/
 
 
-.lightbulb{
-  -webkit-filter: drop-shadow(2px 2px 2px rgba(108, 109, 109, 0.4));
-  filter: drop-shadow(2px 2px 2px rgba(108, 109, 109, 0.4));
-}
 
 .underline{
   color: #676e71 !important;
-  font-size:26px;
+  font-size:32px;
   font-weight:600;
    display:block;
   cursor:pointer;
-
+  font-family: 'Playfair Display', serif;  
 }
 
 .underline::after{
-  font-family: 'Raleway', sans-serif;
   content: "";
   width: 0;
   margin-top:5px;
