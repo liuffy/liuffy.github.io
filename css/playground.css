@@ -144,7 +144,7 @@ input{
 
 .underline{
   color: #676e71 !important;
-  font-size:24px;
+  font-size:26px;
   font-weight:600;
    display:block;
   cursor:pointer;
@@ -340,7 +340,7 @@ animation: Auroura 5s ease infinite;
   display: inline-block;
   font-size: 1.5em;
   padding:0em 0.2em;
-  margin-bottom:2.5em;
+  margin-bottom:1.0em;
   text-decoration: none;
   position: relative;
   font-family: 'Bungee', cursive;
@@ -365,15 +365,15 @@ animation: Auroura 5s ease infinite;
 }
 
 .boxed-in:before {
-  border-left: 3px solid #5635ae;
-  border-right: 3px solid #5635ae;
+  border-left: 4px solid #5635ae;
+  border-right: 4px solid #5635ae;
   -webkit-transform: scale(1, 0);
   transform: scale(1, 0);
 }
 
 .boxed-in:after {
-  border-bottom: 3px solid #5635ae;
-  border-top: 3px solid #5635ae;
+  border-bottom: 4px solid #5635ae;
+  border-top: 4px solid #5635ae;
   -webkit-transform: scale(0, 1);
   transform: scale(0, 1);
 }
