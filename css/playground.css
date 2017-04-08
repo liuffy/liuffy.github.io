@@ -154,7 +154,6 @@ input{
 /*Underline*/
 
 
-
 .underline{
   color: #676e71 !important;
   font-size:32px;
@@ -346,7 +345,7 @@ animation: Auroura 5s ease infinite;
   -webkit-transition: all 100ms ease-in;
   -moz-transition: all 100ms ease-in;
   transition: all 100ms ease-in;
-  color: #5d62ea;
+  color: gray;
   padding-bottom:0.2em;
   cursor:pointer;
   display: inline-block;
@@ -359,7 +358,7 @@ animation: Auroura 5s ease infinite;
 }
 
 .boxed-in:hover{
-  color: #5635ae;
+  color: black;
 }
 
 .boxed-in:after,
@@ -377,15 +376,15 @@ animation: Auroura 5s ease infinite;
 }
 
 .boxed-in:before {
-  border-left: 4px solid #5635ae;
-  border-right: 4px solid #5635ae;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
   -webkit-transform: scale(1, 0);
   transform: scale(1, 0);
 }
 
 .boxed-in:after {
-  border-bottom: 4px solid #5635ae;
-  border-top: 4px solid #5635ae;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
   -webkit-transform: scale(0, 1);
   transform: scale(0, 1);
 }
