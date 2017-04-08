@@ -74,11 +74,17 @@ input{
 }
 
 .star{
-  opacity:0.4;
+  margin-bottom:15px;
+  opacity:0.8;
+  -webkit-transition: all 200ms ease-in;
+  -moz-transition: all 200ms ease-in;
+  transition: all 200ms ease-in;
+  filter:brightness(90%);
 }
 
 .star:hover{
-  opacity:1;
+  opacity: 1.0;
+  filter:brightness(140%);
 }
 
 .star-shine{
