@@ -86,7 +86,6 @@ input{
 }
 
 /* Wiggle */
-
 .pengu:hover{
  -webkit-animation-name: wiggle;
   -ms-animation-name: wiggle;
@@ -137,6 +136,12 @@ input{
 
 /*Underline*/
 
+
+.lightbulb{
+  -webkit-filter: drop-shadow(2px 2px 2px rgba(108, 109, 109, 0.4));
+  filter: drop-shadow(2px 2px 2px rgba(108, 109, 109, 0.4));
+}
+
 .underline{
   color: #676e71 !important;
   font-size:24px;
@@ -160,7 +165,7 @@ input{
 }
 .underline:hover::after {
   -webkit-animation: bar 0.5s linear;
-  animation: bar 0.5s linear;
+  animation: bar 0.3s linear;
   width:100%;
   }
 
@@ -196,6 +201,8 @@ input{
   -webkit-transition: all 200ms ease-in;
   -moz-transition: all 200ms ease-in;
   transition: all 200ms ease-in;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 
@@ -377,4 +384,33 @@ animation: Auroura 5s ease infinite;
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
+}
+
+/* Hearbeat */
+
+.heart{
+  transform:scale(0.8);
+}
+
+.heart:hover, .heart:active {
+  animation: beat 1.1s infinite;
+}
+
+
+@keyframes beat {
+  0%, 50% {
+    transform: scale(1);
+    opacity:1.0;
+    animation-timing-function: ease-out;
+  }
+  25% {
+    transform: scale(0.8);
+    opacity:0.8;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity:0.9;
+    animation-timing-function: ease-in;
+  }
 }
