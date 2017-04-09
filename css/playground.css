@@ -156,7 +156,7 @@ input{
 
  .underline-2, .underline{
   color: #676e71 !important;
-  font-size:32px;
+  font-size:28px;
   font-weight:600;
    display:block;
   cursor:pointer;
@@ -457,7 +457,7 @@ animation: Auroura 5s ease infinite;
     font-weight:bold; 
     padding-left:1em;
     font-size:1.2em;
-    color: #3d3d3d;
+    color: #435589;
     cursor:pointer;
     display:flex;
     flex-direction:column;
@@ -465,14 +465,14 @@ animation: Auroura 5s ease infinite;
     height:5.6em;
     width:10em;
     position:relative;
-    border:1px solid #161489;
+    border:1px solid rgb(222, 229, 252);
   }
 
 
   .read-more:after{
-      color: #161489;
+      color: #435589;
       content: 'Read more';
-      background:rgba(192, 242, 247, 0.9);
+      background:rgba(222, 229, 252, 0.9);
       font-size:1.3em;
       font-weight:bold;
       text-align:center;
