@@ -154,7 +154,7 @@ input{
 /*Underline*/
 
 
-.underline{
+ .underline-2, .underline{
   color: #676e71 !important;
   font-size:32px;
   font-weight:600;
@@ -166,7 +166,7 @@ input{
 .underline::after{
   content: "";
   width: 0;
-  margin-top:5px;
+  margin-top:15px;
   height: 3px;
   background: #676e71;
   display: block;
@@ -427,21 +427,71 @@ animation: Auroura 5s ease infinite;
 
 /* Outwards underline */
 
+.underline-2{
+  color: #076044 !important;
+}
+
  .underline-2:after{
       content: '';
       left: 0;
+      color: #076044;
       display: inline-block;
-      height: 1em;
+      margin-top:-15px;
       width: 100%;
-      border-bottom: 1px solid;
-      opacity: 0;
-      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-      transition: opacity 0.35s, transform 0.35s;
+      border-bottom: 3px solid;
+      -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+      transition: opacity 0.5s, transform 0.5s;
       -webkit-transform: scale(0,1);
       transform: scale(0,1);
 }
  .underline-2:hover:after {
-        opacity: 1;
         -webkit-transform: scale(1);
         transform: scale(1);
   }
+
+
+  /* Read more */
+
+  .read-more{
+    font-family: 'Playfair Display', serif; 
+    font-weight:bold; 
+    padding-left:1em;
+    font-size:1.2em;
+    color: #3d3d3d;
+    cursor:pointer;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    height:5.6em;
+    width:10em;
+    position:relative;
+    border:1px solid #161489;
+  }
+
+
+  .read-more:after{
+      color: #161489;
+      content: 'Read more';
+      background:rgba(192, 242, 247, 0.9);
+      font-size:1.3em;
+      font-weight:bold;
+      text-align:center;
+      position:absolute;
+      padding-top:1.8em;
+      margin-top:-1.5em;
+      left: 0;
+      display: inline-block;
+      height: 4.2em;
+      width: 100%;
+      border-bottom: 0.7em solid;
+      opacity: 0;
+      -webkit-transition: opacity 0.2s, -webkit-transform 0.2s;
+      transition: opacity 0.2s, transform 0.2s;
+      -webkit-transform: scale(0,1);
+      transform: scale(0,1);
+    }
+   .read-more:hover:after {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+      }
