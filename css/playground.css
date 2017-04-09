@@ -132,11 +132,11 @@ input{
 
 /*Hover*/
 
-.dragonite{
+.ufo{
   margin-bottom:15px;
 }
 
-.dragonite:hover{
+.ufo:hover{
   animation: hover 1.5s infinite;
 }
 
@@ -286,7 +286,7 @@ animation: Auroura 5s ease infinite;
   transition: all 0.2s ease-in;
 }
 .polar-bear:hover{
-    transform: scale(1.2);
+    transform: translateX(15px);
 }
 
 /*Twinkle */
@@ -453,6 +453,8 @@ animation: Auroura 5s ease infinite;
   /* Read more */
 
   .read-more{
+   background-color: #c8c2fc;;
+background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
     font-family: 'Playfair Display', serif; 
     font-weight:bold; 
     padding-left:1em;
