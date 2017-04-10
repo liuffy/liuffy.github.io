@@ -608,3 +608,60 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-light
   75% { transform:  translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotate3d(5, 10, 0, 270deg); } 
   100% { transform:  translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotate3d(5, 10, 0, 360deg); } 
 }
+
+
+/* Cornered */
+
+
+.cornered{
+    -webkit-transition: all 100ms ease-in;
+  -moz-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+  color: gray;
+  cursor:pointer;
+  display: inline-block;
+  font-size: 1.5em;
+  padding:0.2em 0.2em;
+  margin-bottom:1.0em;
+  text-decoration: none;
+  position: relative;
+  font-family: 'Bungee', cursive;
+}
+.cornered:hover{
+  color: black;
+}
+
+.cornered:after,
+.cornered:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 2.5em;
+  margin-top:-12px;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+.cornered:before {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+}
+
+.cornered:after {
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+
+.cornered:hover:after,
+.cornered:hover:before {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
