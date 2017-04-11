@@ -78,7 +78,7 @@ h3, .h3 {
    animation: fadeIn 0.6s ease-in both;
   -webkit-animation: fadeIn 0.6s ease-in both;
       -webkit-animation-delay: 3.2s; /* Safari 4.0 - 8.0 */
-    animation-delay: 3.2s;
+    animation-delay: 2.5s;
 }
 
 .fadeIn{
@@ -92,7 +92,7 @@ h3, .h3 {
      animation: fadeIn 0.6s ease-in both;
   -webkit-animation: fadeIn 0.6s ease-in both;
       -webkit-animation-delay: 1.5s; /* Safari 4.0 - 8.0 */
-    animation-delay: 1.5s;
+    animation-delay: 1.6s;
 }
 @keyframes fadeIn {
   from { opacity: 0; transform: translateX(20%);}
