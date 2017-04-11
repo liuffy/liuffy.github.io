@@ -1467,18 +1467,42 @@ input:-webkit-autofill:active {
       font-size: 2rem; } 
     }
 
+.slideLeftIn {
+  animation: slideLeftIn 2s ease-in both;
+  -webkit-animation: slideLeftIn 2s ease-in both;
+}
+
+.slideLeftIn2 {
+  animation: slideLeftInTwo 1.4s ease-in both;
+  -webkit-animation: slideLeftInTwo 1.4s ease-in both;
+    -webkit-animation-delay: 1.5s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1.5s;
+}
+@keyframes slideLeftIn {
+  from { opacity: 0; transform: translateX(-20%); }
+}
+@-webkit-keyframes slideLeftInTwo {
+  from { opacity: 0; -webkit-transform: translateX(-20%); }
+}
+
+@keyframes slideLeftInTwo {
+  from { opacity: 0; ; }
+}
+@-webkit-keyframes slideLeftInTwo {
+  from { opacity: 0; }
+}
 
 .home-subheading {
   font-family: "Poppins" !important;
-  font-weight: 500;
-  color: #91add8 !important;
+  font-weight: 600;
+  color: #717175 !important;
   margin: 0;
   position: absolute;
   font-size: 22px;
-  font-size: 2.0rem; /* tagline! */
+  font-size: 2.4rem; /* tagline! */
   left: 671px;
   top: 333px;
-  letter-spacing: 0.0011em;
+  /*letter-spacing: 0.0011em;*/
   z-index: 1; }
   @media (max-width: 1199px) {
     .home-subheading {
