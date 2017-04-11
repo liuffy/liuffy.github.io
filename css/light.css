@@ -108,8 +108,8 @@
   color: #747f91 !important;
   font-weight:700;
   background:none !important; 
-  border: 2px solid #747f91;
-  box-shadow: 0px 0px 0px 0px rgba(37, 1, 0, 0.2);
+  border: 1px solid #a8b2c1;
+    box-shadow: 0px 0px 0px 0px rgba(37, 1, 0, 0.2);
 
 }
 
@@ -120,8 +120,8 @@
 }
   .btn.btn-primary:hover, .btn.btn-primary.hover {
     color: #fff !important;
-    background: #747f91 !important;
-    border: 2px solid #747f91;
+    background: #a8b2c1 !important;
+    border: 1px solid #a8b2c1;
     -webkit-animation: moveAndBack 3s ease-in-out;
     animation: moveAndBack 3s ease-in-out
   }
