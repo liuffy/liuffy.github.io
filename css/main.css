@@ -1661,9 +1661,8 @@ input:-webkit-autofill:active {
         width: 48%; } }
     @media (max-width: 767px) {
       .portfolio-list.grid .grid-sizer, .portfolio-list.grid .portfolio-item {
-        margin-left:5%;
-        width:90%;
-        font-size:6em;} }
+        width:100%;
+        font-size:4em;} }
   .portfolio-list.grid .gutter-sizer {
     width: 4%; }
   .portfolio-list.grid .portfolio-item {
