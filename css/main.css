@@ -1617,6 +1617,7 @@ input:-webkit-autofill:active {
       top: 0;
       padding-bottom: 200px; } }
   .portfolio-filter .grid-btn {
+    font-family:'Nunito', sans-serif;
     outline: none !important;
     background: transparent;
     display: inline-block;
