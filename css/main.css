@@ -67,6 +67,8 @@ h3, .h3 {
 }
 
 .about-container{
+  /*padding-left:0em;*/
+  margin-left:0em;
   margin-bottom:2em;
   padding-top:0em;
    animation: fadeIn 0.6s ease-in both;
@@ -1439,7 +1441,7 @@ input:-webkit-autofill:active {
         line-height: 287px; } }
     @media (max-width: 767px) {
       .title-box .title {
-        font-size: 187px;
+        font-size: 157px;
         line-height: 187px; } }
   .title-box canvas {
     position: relative; }
