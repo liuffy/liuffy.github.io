@@ -296,7 +296,7 @@ body {
   color: #fff;
 }
   .portfolio-list.grid .portfolio-item .content:hover img {
-    box-shadow: 0px 6px 23px 0px rgba(28, 28, 28, 0.3); }
+ }
   .portfolio-list.grid .portfolio-item .content img {
     width: 100%; }
   .portfolio-list.grid .portfolio-item .content > a {
