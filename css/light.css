@@ -303,11 +303,14 @@ body {
     color: #fff; }
   .portfolio-list.grid .portfolio-item .content span a {
     width:100%;
+    font-family:'Raleway';
     height:100%;
      background: rgba(106, 106, 107, 0.7);
-    line-height:90%;
+    /*line-height:101%;*/
+    padding:30px 10px;
     color: #fff !important;
-    font-size:1em !important;  }
+    font-weight:100 !important;
+    font-size:20px !important;  }
   .portfolio-list.grid .portfolio-item .content:hover, .portfolio-list.grid .portfolio-item .contentfocus {
     color: #000; }
     .portfolio-list.grid .portfolio-item .content:hover a, .portfolio-list.grid .portfolio-item .contentfocus a {

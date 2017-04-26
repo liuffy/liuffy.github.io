@@ -1659,6 +1659,8 @@ input:-webkit-autofill:active {
         margin-right: 47px; }
 
 .portfolio-list.grid {
+  font-size:20px;
+  line-height:99%;
   min-height: 512.656px; }
   .portfolio-list.grid .grid-sizer, .portfolio-list.grid .portfolio-item {
       box-shadow: 0px 10.5px 30.5px 0 rgba(37, 1, 0, 0.31) !important;
@@ -1669,7 +1671,7 @@ input:-webkit-autofill:active {
     @media (max-width: 767px) {
       .portfolio-list.grid .grid-sizer, .portfolio-list.grid .portfolio-item {
         width:100%;
-        font-size:4em;} }
+        } }
   .portfolio-list.grid .gutter-sizer {
     width: 4%; }
   .portfolio-list.grid .portfolio-item {
