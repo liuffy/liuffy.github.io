@@ -303,7 +303,7 @@ body {
     color: #fff; }
   .portfolio-list.grid .portfolio-item .content span a {
     width:100%;
-    font-family:'Raleway';
+      font-family: 'Brandon Grotesque', sans-serif;
     height:100%;
      background: rgba(106, 106, 107, 0.7);
     /*line-height:101%;*/
