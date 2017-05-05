@@ -628,10 +628,10 @@ input:-webkit-autofill:active {
   }
 
   .about-container a{
- 	border-bottom:1px solid black;
- 	letter-spacing:0.06em;
-  transition: all 0.2s cubic-bezier(0.17, 0.67, 0.83, 0.67);
-  box-shadow: 0px 13px 21px -6px rgba(0, 180, 158, 0); 
+   	border-bottom:1px solid black;
+   	letter-spacing:0.06em;
+    transition: all 0.2s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+    box-shadow: 0px 13px 21px -6px rgba(0, 180, 158, 0); 
   }
 
   .about-container a:hover{
