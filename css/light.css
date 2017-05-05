@@ -231,24 +231,6 @@ body {
     /*border-bottom:2px solid #a8b2c1;*/
   }
 
-   .navigation nav .menu > li a::after{
-  content: "";
-  width: 0;
-  margin-top:5px;
-  height: 1px;
-  background: #8ca5cd;
-  position:absolute;
-  display: block;
-  left: 0;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-.navigation nav .menu > li a:hover::after {
-  -webkit-animation: bar 0.2s linear;
-  animation: bar 0.2s linear;
-  width:100%;
-  }
 
   .navigation nav .menu > li a.active:before {
     background: #8ca5cd; }

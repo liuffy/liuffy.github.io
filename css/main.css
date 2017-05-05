@@ -2,14 +2,15 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600|Raleway:300,400,500,700|Shrikhand|Bungee|Playfair+Display:400,900|Nunito:400|");
 html {
   font-size: 62.5%;
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Brandon Grotesque', sans-serif; }
   html body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Brandon Grotesque', sans-serif;
     font-size: 15px;
     font-size: 1.5rem;
     line-height: 1.6; }
 
 p {
+	  	color:black;
   font-size: 1px;
   font-size: 1.4rem;
   line-height: 22px;
@@ -67,6 +68,7 @@ h3, .h3 {
 }
 
 .about-container{
+	color:black;
   /*padding-left:0em;*/
   margin-left:0em;
   margin-bottom:1em;
@@ -443,9 +445,12 @@ input:-webkit-autofill:active {
     .btn-wrapper a {
       float: none !important; } }
 
+.just-this{
+	  border-radius:0px !important;
+}
+
 .just-this:hover{
   color: white !important;
-  /*margin-bottom:-10px;*/
   box-shadow: 0px 10.5px 30.5px 0 rgba(37, 1, 0, 0.31) !important;
 }
 
@@ -615,7 +620,7 @@ input:-webkit-autofill:active {
   z-index:3000;
   font-size: 17px;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 100;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   transition: all 0.2s cubic-bezier(0.17, 0.67, 0.83, 0.67);
@@ -623,13 +628,15 @@ input:-webkit-autofill:active {
   }
 
   .about-container a{
-  font-family: 'Futura', sans-serif;
-  z-index:3000;
-  font-size:1.05em;
-  font-weight: 500 !important;
-  letter-spacing: 0.03em;
+ 	border-bottom:1px solid black;
+ 	letter-spacing:0.06em;
   transition: all 0.2s cubic-bezier(0.17, 0.67, 0.83, 0.67);
   box-shadow: 0px 13px 21px -6px rgba(0, 180, 158, 0); 
+  }
+
+  .about-container a:hover{
+  	border-bottom:1px solid ;
+  	border-bottom:1px solid transparent;
   }
 
 .about-page .about-header {
@@ -804,7 +811,8 @@ input:-webkit-autofill:active {
   bottom: 0;
   left: 0;
   right: 0;
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Raleway', sans-serif; 
+}
   .navigation nav {
     border-top: solid 1px; }
     .navigation nav li {
@@ -944,7 +952,6 @@ input:-webkit-autofill:active {
       letter-spacing: .3em;
       font-weight: 500;
       text-transform: uppercase;
-      font-family: Raleway;
       font-size: 12px;
       font-size: 1.2rem;
       text-align: center;
@@ -1287,7 +1294,6 @@ input:-webkit-autofill:active {
   .contact-info p .info {
     font-size: 14px;
     font-size: 1.4rem;
-    font-family: 'Raleway', sans-serif;
     letter-spacing: 0.1em;
     font-weight: 700;
     width: 27%;
@@ -1361,7 +1367,6 @@ input:-webkit-autofill:active {
   font-weight: 300; }
 
 .btn {
-  font-family: Raleway;
   z-index:3000;
   font-size: 14px;
   font-size: 1.3rem;
@@ -1375,14 +1380,12 @@ input:-webkit-autofill:active {
     outline: none !important;
     border: none;
     z-index:3000 !important;
-    /*border-radius: 3px; */
   }
   .btn.btn-default {
     font-size: 8px;
     font-size: 0.8rem;
     font-weight: 500;
     background: transparent !important;
-    border-radius: 3px;
     transition: all .2s ease; }
     .btn.btn-default:hover, .btn.btn-default.hover {
       opacity: .5; }
@@ -1447,7 +1450,7 @@ input:-webkit-autofill:active {
   margin-bottom: 0.5em;
   position: relative;
   overflow: hidden;
-  font-family: "Poppins" !important; }
+  font-family: "Brandon Grotesque" !important; }
   .title-box .title {
     opacity: 0;
     text-align: center;
@@ -1456,7 +1459,7 @@ input:-webkit-autofill:active {
     position: absolute;
     font-size: 310px;
     line-height: 330px; /* CHANGE HEIGHT HERE */
-    font-family: Poppins !important; }
+    font-family: Brandon Grotesque !important; }
     @media (max-width: 991px) {
       .title-box .title {
         font-size: 257px;
@@ -1488,7 +1491,7 @@ input:-webkit-autofill:active {
   left: 206px;
   position: absolute;
   z-index: 1;
-  font-weight: 600;
+  font-weight: 100;
   font-size:24px; }
   @media (max-width: 1199px) {
     .home-heading {
@@ -1544,7 +1547,6 @@ input:-webkit-autofill:active {
 }
 
 .home-subheading {
-  font-family: "Poppins" !important;
   font-weight: 600;
   color: #717175 !important;
   margin: 0;
@@ -1644,15 +1646,14 @@ input:-webkit-autofill:active {
       top: 0;
       padding-bottom: 200px; } }
   .portfolio-filter .grid-btn {
-    font-family:'Nunito', sans-serif;
     outline: none !important;
     background: transparent;
     display: inline-block;
     float: none;
     z-index: 10;
     padding: 0;
-    font-size: 14px;
-    font-size: 1.4rem;
+    font-size: 16px;
+    font-size: 1.6rem;
     margin: 0 35px 0 20px;
     border: none !important; }
     @media (max-width: 767px) {
@@ -1879,7 +1880,6 @@ transition: all 500ms ease;
   line-height: 50px;
   position: absolute;
   top: 4px;
-  font-family: 'Raleway';
   font-size: 10px;
   font-size: 1rem;
   letter-spacing: 0.12em;
@@ -1967,7 +1967,6 @@ transition: all 500ms ease;
     .project-info p .info {
       font-size: 10px;
       font-size: 1rem;
-      font-family: 'Raleway', sans-serif;
       letter-spacing: 0.1em;
       font-weight: 700;
       width: 37%;
