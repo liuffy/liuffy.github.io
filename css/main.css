@@ -1,5 +1,15 @@
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600|Raleway:300,400,500,700|Shrikhand|Bungee|Playfair+Display:400,900|Nunito:400|");
+@import url("http://res.cloudinary.com/liuffy/raw/upload/v1494027083/Brandon_med_yezuqz.otf");
+
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  font-style: normal;
+  font-weight: 300;
+  src: url(http://res.cloudinary.com/liuffy/raw/upload/v1494028511/Brandon_light_kxxgpe.otf) format('otf');
+}
+
 html {
   font-size: 62.5%;
   font-family: 'Brandon Grotesque', sans-serif; }
