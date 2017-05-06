@@ -524,26 +524,6 @@ input:-webkit-autofill:active {
     display: block; }
 
 
-.sticker{
-  color: #387f54 !important;
-  background:rgba(140, 165, 205, 0) !important;
-  padding:10px 2px !important;
-  width:100% !important;
-}
-
-.stickers-head{
-  padding:2px 0px;
-}
-.sticker-container{
-  width:150px !important;
-  height:auto !important;
-}
-
-.sticker:hover{
-  background:rgba(140, 165, 205, 0) !important;
-}
-
-
 .checkbox {
   font-size: 12px !important;
   font-size: 1.2rem !important;
