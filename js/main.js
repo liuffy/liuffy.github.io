@@ -4,7 +4,7 @@
     var $window = $(window);
 
     $window.on("load", function () {
-        $(".showbox").delay(350).fadeOut("slow");
+        $(".showbox").delay(250).fadeOut("slow");
         titleCanvas();
     });
 
