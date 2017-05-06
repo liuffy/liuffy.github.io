@@ -1580,7 +1580,7 @@ input:-webkit-autofill:active {
         line-height: 287px; } }
     @media (max-width: 767px) {
       .title-box .title {
-        font-size: 157px;
+        font-size: 137px;
         line-height: 187px; } }
   .title-box canvas {
     position: relative; }
