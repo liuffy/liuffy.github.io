@@ -161,7 +161,7 @@ p {
   font-size: 1px;
   font-size: 1.4rem;
   line-height: 22px;
-  font-weight: 300;
+  font-weight: 200;
   margin-bottom: 8px; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
@@ -767,7 +767,7 @@ input:-webkit-autofill:active {
   z-index:3000;
   font-size: 17px;
   font-size: 1.6rem;
-  font-weight: 100;
+  font-weight: 200;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   transition: all 0.2s cubic-bezier(0.17, 0.67, 0.83, 0.67);
@@ -1638,7 +1638,7 @@ input:-webkit-autofill:active {
   left: 206px;
   position: absolute;
   z-index: 1;
-  font-weight: 100;
+  font-weight: 200;
   font-size:24px; }
   @media (max-width: 1199px) {
     .home-heading {
