@@ -365,7 +365,7 @@ animation: Auroura 5s ease infinite;
   left: 0;
   display: inline-block;
   height: 2.5em;
-  margin-top:-12px;
+  margin-top:-25px;
   width: 100%;
   opacity: 0;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -478,7 +478,7 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-light
     text-align:center;
     position:absolute;
     padding-top:1.8em;
-    margin-top:-1.5em;
+    margin-top:-1.7em;
     left: 0;
     display: inline-block;
     height: 4.3em;
@@ -531,9 +531,8 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-light
   width: 100px;
   height: 100px;
   color:white;
-  font-family: 'Nunito', sans-serif;
   font-weight:700;
-  font-size:1.8em;
+  font-size:1.5em;
   align-items:center;
   justify-content:center;
 }
