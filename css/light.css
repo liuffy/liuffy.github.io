@@ -295,7 +295,7 @@ body {
     background: rgba(106, 106, 107, 0.7);
     padding:30px 10px;
     color: #fff !important;
-    font-weight:400 !important;
+    font-weight:700 !important;
     font-size:20px !important;  }
   .portfolio-list.grid .portfolio-item .content:hover, .portfolio-list.grid .portfolio-item .contentfocus {
     color: #000; }
