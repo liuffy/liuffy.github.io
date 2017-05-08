@@ -528,7 +528,7 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-light
   position:relative;
   cursor:pointer;
   position: relative;
-  width: 100px;
+  width: 150px;
   transform-style: preserve-3d;
   animation: spin_cube 5s infinite linear;
 }
@@ -547,7 +547,7 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-light
   text-wrap:wrap;
   flex-direction:column;
   position: absolute;
-  line-height:1;
+  line-height:1.1;
   width: 100px;
   height: 100px;
   color:white;
