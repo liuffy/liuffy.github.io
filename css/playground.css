@@ -499,6 +499,15 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-light
 
     /* Rotating cube */
 
+.wrap-2{
+ height:110px;
+  margin-top:20px;
+  display:inline-block;
+  position:relative;
+  transform:scale(0.8);
+  perspective: 500px;
+  perspective-origin: 10% 50px;
+}
 
 .wrap {
   height:100px;
@@ -528,7 +537,7 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-light
   position:relative;
   cursor:pointer;
   position: relative;
-  width: 150px;
+  width: 110px;
   transform-style: preserve-3d;
   animation: spin_cube 5s infinite linear;
 }
@@ -548,10 +557,11 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-light
   flex-direction:column;
   position: absolute;
   line-height:1.1;
+  padding:20px;
   width: 100px;
   height: 100px;
   color:white;
-  font-size:1.5em;
+  font-size:1.4em;
   align-items:center;
   justify-content:center;
 }
