@@ -523,18 +523,44 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-light
   animation: spin_cube 5s infinite linear;
 }
 
-.cube div {
+.cube-2{
+  display:inline-block;
+  position:relative;
+  cursor:pointer;
+  position: relative;
+  width: 100px;
+  transform-style: preserve-3d;
+  animation: spin_cube 5s infinite linear;
+}
+
+.cube-2:hover{
+      -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+     animation-play-state: paused;
+}
+
+
+
+.cube-2 div, .cube div {
   display:flex;
   text-wrap:wrap;
   flex-direction:column;
   position: absolute;
+  line-height:1;
   width: 100px;
   height: 100px;
   color:white;
-  font-weight:700;
   font-size:1.5em;
   align-items:center;
   justify-content:center;
+}
+
+.cube-2 div{
+  font-size:22px;
+  text-align:center;
+  font-weight:400;
+  color:#6b6b6b;
 }
 
 .back { /* Back */
@@ -542,29 +568,70 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-light
    background: rgba(214, 35, 254, 0.9) url(../img/popcorn.png) no-repeat bottom center;
   text-transform: capitalize;
 }
+
+.back-2{
+  transform: translateZ(-50px) rotateY(180deg);
+  background: #ACC4CD no-repeat bottom center;
+  text-transform: capitalize;
+}
+
 .right { /* Work */
   transform: rotateY(-270deg) translateX(50px);
   transform-origin: top right;
   background: rgba(73, 178, 157, 0.95) url(../img/computer-screen.png) no-repeat bottom center;
 }
+
+.right-2{
+  transform: rotateY(-270deg) translateX(50px);
+  transform-origin: top right;
+  background: #E6D3CD no-repeat bottom center;
+}
+
 .left { /* Sleep */
   transform: rotateY(270deg) translateX(-50px);
   background: rgba(19, 28, 124, 0.95) url(../img/dream.png) no-repeat bottom center;
   transform-origin: center left;
 }
+
+.left-2{
+  transform: rotateY(270deg) translateX(-50px);
+  color:white !important;
+  background: rgba(19, 28, 124, 0.95) no-repeat bottom center;
+  transform-origin: center left;
+}
+
 .top { /* Play */ 
   transform: rotateX(-90deg) translateY(-50px);
   background: rgba(255, 111, 22, 0.95) url(../img/gamepad.png) no-repeat bottom center;
   transform-origin: top center;
 }
+
+.top-2{
+    transform: rotateX(-90deg) translateY(-50px);
+  background: #AAA7BA no-repeat bottom center;
+  transform-origin: top center;
+}
+
 .bottom { /* Art */
   transform: rotateX(90deg) translateY(50px);
   background: rgb(106, 114, 118 ) url(../img/origami-bird.png) no-repeat bottom center;
   transform-origin: bottom center;
 }
+
+.bottom-2{
+  transform: rotateX(90deg) translateY(50px);
+  background: #B5D1BA no-repeat bottom center;
+  transform-origin: bottom center;
+}
+
 .front {
   transform: translateZ(50px); /* Eat */
   background: rgba(106, 58, 252,0.9) url(../img/cutlery.png) no-repeat bottom center;
+}
+
+.front-2{
+   transform: translateZ(50px); /* Eat */
+  background: #C8D5E3 no-repeat bottom center;
 }
 
 @keyframes spin {
