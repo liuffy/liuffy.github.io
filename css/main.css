@@ -201,6 +201,30 @@ h3, .h3 {
   height:30px;
 }
 
+.rotate-forever{
+   -webkit-animation:rotateForever 4s linear infinite;
+    -moz-animation:rotateForever 4s linear infinite;
+    animation:rotateForever 4s linear infinite;
+}
+@-moz-keyframes rotateForever { 
+  100% { 
+    -moz-transform: rotate(360deg); 
+    } 
+  }
+
+@-webkit-keyframes rotateForever { 
+  100% { 
+    -webkit-transform: rotate(360deg); 
+    } 
+  }
+
+@keyframes rotateForever { 
+  100% { 
+    -webkit-transform: rotate(360deg); 
+    transform:rotate(360deg); 
+  } 
+}
+
 .about-container{
 	color:black;
   margin-left:0em;
