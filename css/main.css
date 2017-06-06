@@ -206,6 +206,7 @@ h3, .h3 {
     -moz-animation:rotateForever 4s linear infinite;
     animation:rotateForever 4s linear infinite;
 }
+
 @-moz-keyframes rotateForever { 
   100% { 
     -moz-transform: rotate(360deg); 
