@@ -754,14 +754,13 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-light
 }
 
 .earth {
-  /*position: absolute;*/
+  position: absolute;
   -webkit-animation:rotateForever 20s linear infinite;
   -moz-animation:rotateForever 20s linear infinite;
   animation:rotateForever 20s linear infinite;
 }
 
 .satellite {
-  bottom:80px;
   position:absolute;
   -webkit-animation:rotateBackwards 6s linear infinite;
   -moz-animation:rotateBackwards 6s linear infinite;
