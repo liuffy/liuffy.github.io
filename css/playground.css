@@ -222,7 +222,6 @@ input{
   width:30%;
   position:absolute;
   z-index:-2;
-  /*bottom:0;*/
 }
 
 .alive{
@@ -238,6 +237,7 @@ input{
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .box{
   -webkit-transition: all 0.2s ease-in;
   -moz-transition: all 0.2s ease-in;
@@ -738,4 +738,31 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-light
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
+}
+
+
+/* Satelllite */
+
+.orbit-container{
+  height:100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.earth {
+  position: absolute;
+  -webkit-animation:rotateForever 20s linear infinite;
+  -moz-animation:rotateForever 20s linear infinite;
+  animation:rotateForever 20s linear infinite;
+}
+
+.satellite {
+  position:absolute;
+  -webkit-animation:rotateBackwards 6s linear infinite;
+  -moz-animation:rotateBackwards 6s linear infinite;
+  animation:rotateBackwards 6s linear infinite;
 }

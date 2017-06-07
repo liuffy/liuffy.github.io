@@ -207,6 +207,7 @@ h3, .h3 {
     animation:rotateForever 4s linear infinite;
 }
 
+
 @-moz-keyframes rotateForever { 
   100% { 
     -moz-transform: rotate(360deg); 
@@ -219,12 +220,33 @@ h3, .h3 {
     } 
   }
 
-@keyframes rotateForever { 
+
+@keyframes rotateBackwards { 
   100% { 
-    -webkit-transform: rotate(360deg); 
-    transform:rotate(360deg); 
+    -webkit-transform: rotate(-360deg); 
+    transform:rotate(-360deg); 
   } 
 }
+
+@-moz-keyframes rotateBackwards { 
+  100% { 
+    -moz-transform: rotate(-360deg); 
+    } 
+  }
+
+@-webkit-keyframes rotateBackwards { 
+  100% { 
+    -webkit-transform: rotate(-360deg); 
+    } 
+  }
+
+@keyframes rotateBackwards { 
+  100% { 
+    -webkit-transform: rotate(-360deg); 
+    transform:rotate(-360deg); 
+  } 
+}
+
 
 .about-container{
 	color:black;
