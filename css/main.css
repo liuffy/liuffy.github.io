@@ -1705,7 +1705,7 @@ input:-webkit-autofill:active {
 }
 
 @keyframes slideLeftInTwo {
-  from { opacity: 0; ; }
+  from { opacity: 0; }
 }
 @-webkit-keyframes slideLeftInTwo {
   from { opacity: 0; }

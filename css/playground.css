@@ -14,7 +14,7 @@
   align-items: center;
   align-content: stretch;
   float:left;
-  height:40%;
+  height:50%;
 }
 
 input{
@@ -451,7 +451,7 @@ animation: Auroura 5s ease infinite;
 
 
   .read-more{
-   background-color: #c8c2fc;;
+   background-color: #c8c2fc;
 background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
     font-family: 'Playfair Display', serif; 
     font-weight:bold; 
@@ -744,8 +744,8 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-light
 /* Satelllite */
 
 .orbit-container{
-  height:100px;
   display: flex;
+  height:100px;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
@@ -754,13 +754,14 @@ background-image: url("https://www.transparenttextures.com/patterns/asfalt-light
 }
 
 .earth {
-  position: absolute;
+  /*position: absolute;*/
   -webkit-animation:rotateForever 20s linear infinite;
   -moz-animation:rotateForever 20s linear infinite;
   animation:rotateForever 20s linear infinite;
 }
 
 .satellite {
+  bottom:80px;
   position:absolute;
   -webkit-animation:rotateBackwards 6s linear infinite;
   -moz-animation:rotateBackwards 6s linear infinite;
