@@ -248,6 +248,44 @@ h3, .h3 {
 }
 
 
+.whale-swim{
+  animation-name: whale-swim;
+  -webkit-animation-name: whale-swim;  
+
+  animation-duration: 2.5s; 
+  -webkit-animation-duration: 2.5s;
+
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes whale-swim {
+  0% {
+    transform: rotate(-6deg); 
+  }
+  50% {
+    transform: rotate(6deg);
+    transform: translateY(2px);
+  }
+  100% {
+    transform: rotate(-6deg); 
+  }           
+}
+
+@-webkit-keyframes whale-swim {
+  0% {
+    -webkit-transform: rotate(-6deg); 
+  }
+  50% {
+    -webkit-transform: rotate(6deg);
+    transform: translateY(2px);
+  }
+  100% {
+    -webkit-transform: rotate(-6deg); 
+  }       
+}
+
+
 .about-container{
 	color:black;
   margin-left:0em;
