@@ -10,7 +10,6 @@
     font-style: normal;
 }
 
-
 @font-face {
     font-family: 'Brandon Grotesque';
     src: url('brandon_thin_it-webfont.woff2') format('woff2'),
@@ -927,6 +926,10 @@ input:-webkit-autofill:active {
 .flex-wrapper {
   display: flex;
   flex-direction: row; }
+
+rect, text {
+  cursor: pointer;
+}
 
 .space-between {
   display: flex;
